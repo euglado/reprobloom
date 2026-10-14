@@ -1,0 +1,7 @@
+# Security / Güvenlik
+
+Do not post tokens, member information, private logs, exploit instructions or confidential vulnerabilities in public issues or in a ReproBloom report. If GitHub's private vulnerability reporting is enabled for this repository, use Security → Report a vulnerability. If unavailable, request a private contact route from the maintainer using a public issue containing no sensitive details. No response-time guarantee is offered. Rotate exposed Discord tokens immediately in the Developer Portal, remove affected messages, and investigate access. The report filter is only a limited pattern check, not a secret-scanning guarantee.
+
+Token, üye bilgisi, özel log, istismar talimatı veya gizli güvenlik açığını herkese açık issue ya da ReproBloom raporuna yazmayın. Depoda GitHub özel güvenlik bildirimi etkinse Security → Report a vulnerability yolunu kullanın. Yoksa hassas ayrıntı içermeyen bir issue ile bakımcıdan özel iletişim yolu isteyin. Yanıt süresi garantisi yoktur. Sızan Discord tokenını Portal'da hemen yenileyin, ilgili mesajları kaldırın ve erişimi araştırın. Rapor filtresi yalnızca sınırlı örüntü kontrolüdür; sır tespit garantisi değildir.
+
+Supported version / Desteklenen sürüm: latest main / en güncel main. Hosting, Discord installation and private configuration are the operator's responsibility / Barındırma, Discord kurulumu ve özel yapılandırma operatörün sorumluluğundadır.

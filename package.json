@@ -1,0 +1,28 @@
+{
+  "name": "reprobloom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Preview concise community bug reports before sharing them in Discord.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "biome check .",
+    "test": "npm run build && node --test dist/test/domain.test.js dist/test/store.test.js dist/test/bot.test.js dist/test/config.test.js",
+    "check": "npm run lint && npm test && node scripts/supply.mjs",
+    "setup": "node scripts/setup.mjs",
+    "start": "node scripts/launch.mjs main",
+    "register": "node scripts/launch.mjs register"
+  },
+  "dependencies": {
+    "discord.js": "14.27.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "24.10.1",
+    "typescript": "7.0.2"
+  }
+}
